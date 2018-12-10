@@ -15,6 +15,7 @@ set autoindent					" Indent at the same level of the previous line
 set linespace=16				" Set the line height
 set number						" Show line numbers
 set cursorline					" Highlight current line 
+hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 filetype indent on				" Load filetype-specific indent files
 set noerrorbells				" Disable bell for errors that display messages
 set vb t_vb=					" Disable bell for errors that do not display messages
